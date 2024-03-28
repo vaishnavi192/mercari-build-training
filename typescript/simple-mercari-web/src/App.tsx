@@ -10,7 +10,7 @@ function App() {
     <div>
       <header className='Title'>
         <p>
-          <b>Simple Mercari</b>
+          <b>My First Webpage</b>
         </p>
       </header>
       <div>

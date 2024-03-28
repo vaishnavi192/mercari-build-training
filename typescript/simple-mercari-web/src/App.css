@@ -1,49 +1,66 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c4d8ee;
+  margin: 0;
+  padding: 0;
+  }
+  .Title {
+  background-color: #19256c;
+  color: white;
   text-align: center;
-}
-
-.Title {
-  background-color: #222427;
-  min-height: 8vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  font-size: calc(10px + 1vmin);
-  color: white;
-}
-
-.Listing {
-  background-color: #222427;
-  min-height: 8vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  font-size: calc(10px + 1vmin);
-  color: white;
-}
-
-.ItemList {
-  background-color: #222427;
-  min-height: 8vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  font-size: calc(10px + 1vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  padding: 10px;
+  font-size: 24px;
   }
-  to {
-    transform: rotate(360deg);
+  .Listing {
+  background-color: #c4d8ee;
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
-}
+  .Listing form div {
+  display: flex;
+  flex-direction: column;
+  }
+  .Listing form div input {
+  margin-bottom: 10px;
+  padding: 5px;
+  }
+  .Listing form div button {
+  background-color: #1d7d32;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .Items {
+  background-color: #c4d8ee;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  }
+  .ItemList {
+  max-width: 150px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  }
+  .ItemList img {
+  width: 100%;
+  max-height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  }
+  .ItemList .info {
+  padding: 10px;
+  }
+  .ItemList h3 {
+  margin-top: 0;
+  }
+  .upload-form label:hover {
+  background-color: #0056b3;
+  }
