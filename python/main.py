@@ -8,6 +8,10 @@ from typing import List, Optional
 from fastapi.responses import FileResponse 
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbeebe98aaf4771a6179d8c707405d756346b894
 
 app = FastAPI()
 UPLOAD_DIR = "images"
